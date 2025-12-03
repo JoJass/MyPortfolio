@@ -1,0 +1,37 @@
+/* style.css */
+body {
+    font-family: 'Nunito', sans-serif; /* Contoh penggunaan font, Anda bisa ganti */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#app {
+    flex: 1;
+}
+
+.navbar-brand img {
+    
+}
+
+.popular-category-card img {
+    height: 250px; /* Sesuaikan tinggi gambar kategori */
+    object-fit: cover;
+}
+
+.product-card img {
+    height: 200px; /* Sesuaikan tinggi gambar produk */
+    object-fit: cover;
+}
+
+.product-card .card-title {
+    min-height: 40px; /* Beri ruang agar judul rata */
+}
+
+/* Footer styling */
+footer a.text-white:hover {
+    color: #ffc107 !important; /* Warna warning Bootstrap sebagai contoh hover */
+}
+
+/* Sticky footer jika konten pendek (alternatif dari flex di body) */
+/* main { flex: 1; } */
